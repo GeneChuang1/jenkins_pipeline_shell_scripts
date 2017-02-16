@@ -5,7 +5,7 @@ node {
    	stage 'Checkout'
    		git url: 'https://github.com/GeneChuang1/jenkins_pipeline_shell_scripts'
    	stage 'Build'
-   		bat "myBuild.sh"
+   		bat 'myBuild.sh'
    	stage 'Deploy'
    		bat './myDeployment.sh'
   
