@@ -7,6 +7,6 @@ node {
    	stage 'Build'
    		bat 'myBuild.sh'
    	stage 'Deploy'
-   		bat './myDeployment.sh'
+   		bat '.\myDeployment.sh'
   
 }
